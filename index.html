@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media_queries.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+</head>
+<body>
+    <div id="container">
+        <div id="nav">
+            <div id="intro">
+                <div id="pic"></div>
+                <div id="name">ALIU OSHIOKE</div>
+                <div id="socials">
+                    <a href="https://github.com/divtag185"><span class="fa-brands fa-github"></span></a>
+                    <a href="https://wa.me/+2349155457107"><span class="fa-brands fa-whatsapp"></span></a>
+                    <a href="./unavailable.html"><span class="fa-brands fa-linkedin"></span></a>
+                    <a href="mailto:oshiokealiu4@gmail.com"><span class="fa-regular fa-envelope"></span></a>
+                </div>
+                <ul>
+                    <li><a href="#home" onclick="rollIn()"><span class="fa-solid fa-house"> &nbsp;</span>Home</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#about" onclick="rollIn()"><span class="fa-solid fa-id-badge"> &nbsp;</span>About</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#my_works" onclick="rollIn()"><span class="fa-solid fa-file"> &nbsp;</span>Portfolio</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#skills" onclick="rollIn()"><span class="fa-solid fa-screwdriver-wrench"> &nbsp;</span>Skills</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#services" onclick="rollIn()"><span class="fa-solid fa-server"> &nbsp;</span>Services</a></li>
+                </ul>    
+                <ul>
+                    <li><a href="#contact_me" onclick="rollIn()"><span class="fa-regular fa-envelope"> &nbsp;</span>Contact</a></li>
+                </ul>
+                <div id="nav-footer">
+                    Created by <span class="blue">Aliu Oshioke</span> 2022 &copy; <br>
+                    All Rights Reserved
+                </div>
+            </div>
+        </div>
+
+        <div id="menu_bar">
+            <div class="fas fa-bars" id="rollout_bars" onclick="rollOut()"></div>
+            <div class="fas fa-times" id="rollin_bars" alt="rollin_bars" onclick="rollIn()"></div>
+        </div>
+        <a href="#home" id="back_to_top" class="fas fa-angle-up"></a>
+        
+        <div id="content" name="slide">
+            <div id="home">
+                <div id="top_layer">
+                    <h1>ALIU OSHIOKE</h1>
+                    <p>Frontend Web Developer</p>
+                    <div>
+                        <a href="#about" id="about_me">About me</a>
+                    </div>
+                </div>
+            </div>
+
+            <section id="about">
+                <h1>About <span class="blue">Me</span></h1>
+                <div>
+                    <img src="./images/home_bg_1.jpg" alt="">
+                    <div id="writeup">
+                        <p>
+                            Hi, I'm Oshioke. A front-end web developer with years of coding experience. I build professional websites to help tend to your business needs. From e-commerce sites to product delivery sites to food delivery sites to  business sites and landing pages. I've got you covered. 
+                        </p>
+                        <p>
+                            I'm very enthusiastic about web development, particularly frontend and I'm always eager to learn new technologies. I'm also available for job openings, both remote and non.
+                        </p>
+                        
+                        &nbsp;&nbsp;&nbsp;
+                        <a href="#my_works" id="get_in_touch">Check out my latest works</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="my_works">
+                <h1 class="white">My <span class="blue">Works</span></h1>
+                <div>
+                    <div class="work">
+                        <img src="./images/foodies'.png" alt="">
+                        <h2>FOODIES'</h2>
+                        <div class="writeup">
+                            A food delivery site template built with the aim of expanding and generating more revenue for food businesses through providing an online shop for and also taking orders from customers. Built with HTML5, CSS3 and Javascript.  <br>
+                            <a href="https://divtag185.github.io/foodies-/"><button>Live view &nbsp;<span class="fa-solid fa-laptop"></span></button></a> 
+                            <a href="https://github.com/divtag185/foodies-"><button>Check out the code &nbsp;<span class="logo fa-brands fa-github"></span></button></a> 
+                        </div>    
+                    </div>
+
+                    <div class="work">
+                        <img src="./images/portfolio.png" alt="">
+                        <h2>MY PORTFOLIO WEB PAGE</h2>
+                        <div class="writeup">
+                            The page you're currently on: my personal portfolio webpage. A comprehensive website which similar to the Foodies' site above, showcases my skills in HTML5, CSS3 &amp; Javascript.<br>
+                            <a href="https://divtag185.github.io/portfolio/"><button>Live view &nbsp;<span class="fa-solid fa-laptop"></span></button></a> 
+                            <a href="https://github.com/divtag185/portfolio"><button>Check out the code &nbsp;<span class="logo fa-brands fa-github"></span></button></a> 
+                        </div>    
+                    </div>
+
+                    <div class="work">
+                        <img src="./images/clock.png" alt="">
+                        <h2>DIGITAL CLOCK</h2>
+                        <div class="writeup">
+                            You've probably seen a digital clock before. But I doubt you've seen one where the background scenery changes to sync with the time of day of your present location. This project of mine dealt heavily with javascript. <br>
+                            <a href="https://divtag185.github.io/digital_clock/"><button>Live view &nbsp;<span class="fa-solid fa-laptop"></span></button></a> 
+                            <a href="https://github.com/divtag185/digital_clock"><button>Check out the code &nbsp;<span class="logo fa-brands fa-github"></span></button></a> 
+                        </div>    
+                    </div>
+
+                    <div class="work">
+                        <img src="./images/color_picker_1.png" alt="">
+                        <h2>COLOR CODE GENERATOR</h2>
+                        <div class="writeup">
+                            Mix up the red, green and blue of the light spectrum and generate the color code of your unique custom color. This tool really comes in handy when picking unique colors in both web and graphic design. <br>
+                            <a href="https://divtag185.github.io/color_picker/"><button>Live view &nbsp;<span class="fa-solid fa-laptop"></span></button></a> 
+                            <a href="https://github.com/divtag185/color_picker"><button>Check out the code &nbsp;<span class="logo fa-brands fa-github"></span></button></a> 
+                        </div>    
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills">
+                <h1>Skills &amp; <span class="blue">Tools</span></h1>
+                <div class="main">
+                    <div class="box">
+                        <div class="logo fa-brands fa-html5"></div>
+                        <h2>HTML5</h2>
+                    </div>
+                    <div class="box">
+                        <div class="logo fa-brands fa-css3-alt"></div>
+                        <h2>CSS3</h2>
+                    </div>
+                    <div class="box">
+                        <div class="logo  fa-brands fa-js"></div>
+                        <h2>Javascript</h2>
+                    </div>
+                    <div class="box">
+                        <div class="logo  fa-brands fa-bootstrap"></div>
+                        <h2>Bootstrap</h2>
+                    </div>
+                    <div class="box">
+                        <div class="logo  fa-brands fa-wordpress-simple"></div>
+                        <h2>Wordpress</h2>
+                    </div>
+                    <div class="box">
+                        <div class="logo fa-brands fa-github"></div>
+                        <h2>Github</h2>
+                    </div>
+                </div>
+            </section>
+
+            <section id="tools">
+                <div class="dark_bg">
+                    <div>
+                        <div class="logo fa-brands fa-html5"></div>
+                        <div class="label">HTML5</div>
+                    </div>
+                    <div>
+                        <div class="logo fa-brands fa-css3-alt"></div>
+                        <div class="label">CSS3</div>
+                    </div>
+                    <div>
+                        <div class="logo  fa-brands fa-js"></div>
+                        <div class="label">JS</div>
+                    </div>
+                    <div>
+                        <div class="logo  fa-brands fa-bootstrap"></div>
+                        <div class="label">Bootstrap</div>
+                    </div>
+                    <!--<div>
+                        <div class="logo  fa-brands fa-react"></div>
+                        <div class="label">React</div>
+                    </div>-->
+                    <div>
+                        <div class="logo  fa-brands fa-wordpress-simple"></div>
+                        <div class="label">Wordpress</div>
+                    </div>
+                    <div>
+                        <div class="logo fa-brands fa-github"></div>
+                        <div class="label">Github</div>
+                    </div>
+                </div>
+            </section>
+
+            
+
+            <section id="services">
+                <h1><span class="blue">Services</span></h1>
+                <div class="main">
+                    <div class="box">
+                        <div></div>
+                        <h2>Web Development</h2>
+                    </div>
+                    <div class="box">
+                        <div></div>
+                        <h2>Web Design</h2>
+                    </div>
+                    <div class="box">
+                        <div></div>
+                        <h2>Web Services</h2>
+                    </div>
+                    <div class="box">
+                        <div></div>
+                        <h2>Responsive Design</h2>
+                    </div>
+                    <div class="box">
+                        <div></div>
+                        <h2>Debugging</h2>
+                    </div>
+                    <div class="box">
+                        <div></div>
+                        <h2>Site Modification</h2>
+                    </div>
+                </div>
+            </section>           
+            
+            
+
+            <section id="freelance">
+                <div class="dark_bg">
+                    <p>Available for freelance</p>
+                    <a href="https://wa.me/+2349155457107">Hire me <span class="fa-brands fa-whatsapp"></span></a>
+                </div>
+            </section>
+
+            <section id="contact_me">
+                <h1>Contact <span class="blue">Me</span></h1>
+                <div class="contacts">
+                    <a href="https://maps.app.goo.gl/mLAGCThnwedKFw9r6" class="block">
+                        <div class="icon fa-solid fa-location-dot"></div>
+                        <div class="mean">
+                            <h2>Location</h2>
+                            <div class="desc">
+                                Akpata Street, Off Enoma Lane, Benin City.
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://wa.me/+2349155457107" class="block">
+                        <div class="icon fa-brands fa-whatsapp"></div>
+                        <div class="mean">
+                            <h2>Whatsapp</h2>
+                            <div class="desc">+234 915 545 7107</div>
+                        </div>
+                    </a>
+                    <a href="tel:09155457107" class="block">
+                        <div class="icon fa-solid fa-phone"></div>
+                        <div class="mean">
+                            <h2>Phone</h2>
+                            <div class="desc">0915 545 7107</div>
+                        </div>
+                    </a>
+                    <a href="mailto:oshiokealiu4@gmail.com" class="block">
+                        <div class="icon fa-regular fa-envelope"></div>
+                        <div class="mean">
+                            <h2>Email</h2>
+                            <div class="desc">oshiokealiu4@gmail.com</div>
+                        </div>
+                    </a>
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.647303743829!2d5.639470918132775!3d6.309980614910456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1040d3f43281718f%3A0xba522063f1963c9c!2sAkpata%20St%2C%20300104%2C%20Benin%20City!5e0!3m2!1sen!2sng!4v1660251974030!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <form action="https://formsubmit.co/oshiokealiu4@gmail.com" method="POST">
+                    <h2>Send me a messasge</h2>
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="message" id="" cols="30" rows="6" placeholder="Message" required></textarea>
+                    <input type="submit" value="Send message">
+                </form>
+            </section>
+
+            <div id="footer">
+                Created by <span class="blue">Aliu Oshioke</span> 2022 &copy; All Rights Reserved
+            </div>
+
+            
+           
+        </div>
+        
+        
+        
+    </div>
+    
+    <script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>
